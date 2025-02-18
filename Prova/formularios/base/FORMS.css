@@ -1,0 +1,26 @@
+body{
+    background-color: plum ;
+    color: white;
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    background-color: #a157a1;
+    text-decoration: underline;
+    color:black;
+}
+p{
+    font-size: 25px;
+}
+h4{
+    font-size: 35px;
+}
+h5{
+ font-size: 30px;
+}

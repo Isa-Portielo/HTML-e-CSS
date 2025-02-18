@@ -1,0 +1,174 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="Form.css">
+  </head>
+  
+  <body>
+
+    <nav class="nav">
+      <div class="nav-bar">
+        <a href="../base1/Isa02.html">Pagina de inicio</a>
+  <div class="menu"> 
+   <span class="Icon"> &#9776; MENU </span> 
+   <ol class="tipos"> 
+   <li> <a href="../formularios/base/Digitação.html" class="ford"> Digitação </a>  </li>
+   <li> <a href="../formularios/base/Variasopções.html" class="forv"> Varias opções e 1 escolha (Caixa de seleção) </a>  </li>
+   <li> <a href="../formularios/base/Variasopções.html" class="forv"> Varias opções e 1 escolha (Clique, botão)</a>  </li>
+   <li> <a href="../formularios/base/Multiplaescolha.html" class="form"> Multipla escolha </a> </li>
+   <li> <a href="../formularios/base/Numérico.html" class="formn"> Numérico </a>  </li>
+   <li> <a href="../formularios/base/Comentário.html" class="forc"> Comentário </a> </li>
+   <li> <a href="../formularios/base/data.html" class="ford"> Data</a> </li>
+   <li> <a href="../formularios/base/Foto.html" class="forf"> Foto</a> </li>
+   <li> <a href="../formularios/base/botao.html" class="forbe"> Botão (enviar)</a> </li>
+   <li> <a href="../formularios/base/botao.html" class="forba"> Botão(apagar)</a>  </li>
+  </ol>
+   </div>
+  </div>
+
+  <div class="conteudo"> 
+   <h1> Formularios </h1>
+   <p> Formulários são textos com pedido de conteudo. </br>
+    Se pede ao usuario para responder determinadas coisas.</p>
+    <h3> Elementos basicos: </h3>
+    <h4> form. </h4>
+    <p> É o elemento principal. Dá a abertura para o código. </p>
+    <h4> label </h4>
+    <p> É um tipo de rótulo. É o rotulo que se usa para dar um </br> 
+    norte para o usuario digitar, por fora da caixa. </p>
+   
+   <h2> Tipos: </h2>
+    <p>  No HTML possuimos varios tipos de formularios que são  </br> separados em classificações chamadas types.</p>
+   <h3> type=text </h3>
+   <h4> Esse é o formulario de digitação. </h4>
+   <h4> Elementos: </h4>
+   
+   <h5> Elemento input </h5>
+    <p> É o que dá corpo para esse tipo, funciona como uma caixinha para a digitação.</p>
+   <h5> Atributo type=text</h5>
+   Dá o tipo do input e, obviamente vai dentro do input.
+   <h5> Atributo name=""</h5>
+    <p> Um tipo de classificação para o input.</p>
+   <h5> Atributo placeholder=""</h5>
+    <p> Rótulo que se coloca dentro da caixa, como o label só que dentro.</p>
+   <h5> Atributo autocomplete=""</h5>
+    <p>  Pode ser dado como on ou off, define =, como o proprio nome diz, </br>
+    se ira ter ou não a possibilidade de auto completar para o usuario, </br>
+     vendo as respostas anteriores salvas dele.</p>
+     
+   <h3> type=number</h3>
+   <h4> Esse é o tipo que determina o form numerico. </h4>
+   <h4> Elementos: </h4>
+   <h5> Elemento input </h5>
+    <p> É o que dá corpo para esse tipo, funciona como uma caixinha para a digitação de numeros.</p>
+   <h5> Atributo type=number </h5>
+   Dá o tipo do input e, obviamente vai dentro do input.
+   <h5> Atributo name=""</h5>
+    <p> Um tipo de classificação para o input.</p>
+    <h5> Atributo min </h5>
+    <p> Da o valor minimo para se colocar. </p>
+    <h5> Atributo max </h5>
+    <p> Da o valor maximo para se colocar. </p>
+    <h5> Atributo step </h5>
+    <p> Da o valor para se pular. </p>
+    
+   <h3> type=file </h3>
+   <h4> Esse é o tipo que determina o form foto. </h4>
+   <h4> Elementos: </h4>
+   <h5> Elemento input </h5>
+    <p> É o que dá corpo para esse tipo, funciona como uma caixinha para o arquivo da foto. </p>
+   <h5> Atributo type=file </h5>
+   Dá o tipo do input e, obviamente vai dentro do input.
+   <h5> Atributo name=""</h5>
+   <p> Um tipo de classificação para o input.</p>
+   
+   
+   <h3> type=date </h3>
+   <h4> Esse é o tipo que determina o form data. </h4>
+   <h4> Elementos: </h4>
+   <h5> Elemento input </h5>
+    <p> É o que dá corpo para esse tipo, funciona como uma caixinha para </br>
+    digitação de data do tipo: dd/mm/aaaa . </p>
+   <h5> Atributo type=date </h5>
+   Dá o tipo do input e, obviamente vai dentro do input.
+   <h5> Atributo name=""</h5>
+   <p> Um tipo de classificação para o input.</p>
+   
+   <h3> type=radio </h3>
+   <h4> Esse é o tipo que determina o form de varias opções e uma escolha do </br>
+    estilo clique bolinha. </h4>
+   <h4> Elementos: </h4>
+   <h5> Elemento input </h5>
+    <p> É o que dá corpo para esse tipo, funciona como um bloco com varias opções </br> 
+    e bolinhas do lado para clicar. </p>
+   <h5> Atributo type=radio </h5>
+   Dá o tipo do input e, obviamente vai dentro do input.
+   <h5> Atributo name=""</h5>
+   <p> Um tipo de classificação para o input.</p>
+   <h5> Atributo value=""</h5>
+   <p> Dá o valor para aquela opção. </p>
+   
+   <h3> type=checkbox </h3>
+   <h4> Esse é o tipo que determina o form de varias opções e uma escolha do estilo </br> 
+   clique bolinha. </h4>
+   <h4> Elementos: </h4>
+   <h5> Elemento input </h5>
+    <p> É o que dá corpo para esse tipo, funciona como um bloco com varias opções e </br>
+     bolinhas do lado para clicar. </p>
+   <h5> Atributo type=checkbox </h5>
+   Dá o tipo do input e, obviamente vai dentro do input.
+   <h5> Atributo name=""</h5>
+   <p> Um tipo de classificação para o input. Coloca-se colchetes que abrem e fecham </br>
+   para ser possivel marcar mais de uma opção</p>
+   <h5> Atributo value=""</h5>
+   <p> Dá o valor para aquela opção. </p>
+   
+   <h3> type=reset </h3>
+   <h4> Esse é o tipo que determina o form botão de apagar. </h4>
+    <h4> Elementos: </h4>
+   <h5> Elemento button </h5>
+    <p> É o que dá corpo para esse tipo, funciona como uma caixinha para o clique de apagar. </p>
+   <h5> Atributo type=reset </h5>
+   Dá o tipo do input e, obviamente vai dentro do button.
+   
+   
+   <h3> type=submit </h3>
+    <h4> Esse é o tipo que determina o form botão de apagar. </h4>
+    <h4> Elementos: </h4>
+   <h5> Elemento button </h5>
+    <p> É o que dá corpo para esse tipo, funciona como uma caixinha para o clique de enviar. </p>
+   <h5> Atributo type=submit </h5>
+   Dá o tipo do input e, obviamente vai dentro do button.
+   <h5> Atributo formaction=""</h5>
+   <p> Um tipo de link para o button.</p>
+   
+   <h3> Forms que não possuem type: </h3>
+   <h4> Várias opções e uma escolha botão </h4>
+   <p> Não possui input e nem type, é dado por outra estrutura. </br>
+   Serve para escolher um opção dentre varias escolhas, só que em vez </br>
+    de clique é dado em uma caixa de seleção </p>
+    <h4> Elementos: </h4>
+    <h5> Elemento select </h5>
+    <p> Da o corpo do form, é uma caixa de seleção.</p>
+    <h5> Atributo name=""</h5>
+     <p> Um tipo de classificação para o select. Coloca-se dentro do select.</p>
+    <h5> Elemento option </h5>
+     <p> Elemento de opção.</p>
+    <h5> Atributo hidden</h5>
+     <p> Classificação que se da para o option. Esta é uma opção invalida como </br> 
+     um "Selecione" apanas para rotular a caixa ate a pessoa escolher uma opção.</p>
+    <h5> Atributo value="" </h5>
+     <p> Classificação que se da para o option. Esta é uma opção valida. </p>
+     
+   <h4> Comentario </h4>
+   <h5> Elemento textarea </h5>
+    <p> Da o corpo do form, é uma caixa de digitação.</p>
+    <h5> Atributo name=""</h5>
+     <p> Um tipo de classificação para a textarea. Coloca-se dentro da textarea.</p>
+    <h5> Elemento maxlenght </h5>
+     <p> Dá o  numero maximo de caracteres para o usuario digitar.</p>
+     
+  </div>
+  
+  </body>
+ </html>
